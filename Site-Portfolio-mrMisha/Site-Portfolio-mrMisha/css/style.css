@@ -1,0 +1,356 @@
+.body {
+    background-color: rgba(39, 39, 39, 1);
+}
+
+
+
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 161px;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+}
+    .hdr-navi {
+        position: absolute;
+        width: 1171px;
+        height: 161px;
+        left: 257px;
+        top: 0px;
+    }
+    .hdr-info {
+        position: absolute;
+        width: 290px;
+        height: 29px;
+        left: calc(50% - 294px/2 - 322.5px);
+        top: calc(50% - 29px/2 + 6px);
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .hdr-link {
+        position: absolute;
+        width: 360px;
+        height: 29px;
+        left: calc(50% - 360px/2 + 296.5px);
+        top: calc(50% - 29px/2 + 6px);
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+.main {
+    position: absolute;
+    width: 1440px;
+    height: 1054px;
+    left: 0px;
+    top: 161px;
+}
+    .mn-title {
+        position: absolute;
+        width: 1240px;
+        height: 190px;
+        left: 72px;
+        top: 212px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFF9F9;
+    }
+
+    .mn-one-owner {
+        position: absolute;
+        width: 362px;
+        height: 506px;
+        left: 1034px;
+        top: 504px;
+    }
+        .mn-one-name {
+            position: absolute;
+            width: 198px;
+            height: 78px;
+            left: 86px;
+            top: 398px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .mn-one-photo {
+            position: absolute;
+            width: 239.59px;
+            height: 324px;
+            left: 61px;
+            top: 0px;
+        }
+
+
+    .mn-two-owner {
+        position: absolute;
+        width: 362px;
+        height: 506px;
+        left: 536px;
+        top: 504px;
+    }
+        .mn-two-name {
+            position: absolute;
+            width: 300px;
+            height: 72px;
+            left: 31px;
+            top: 417px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .mn-two-photo {
+            position: absolute;
+            width: 336px;
+            height: 336px;
+            left: 13px;
+            top: 0px;
+        }
+
+
+    .mn-three-owner {
+        position: absolute;
+        width: 369px;
+        height: 525px;
+        left: 31px;
+        top: 504px;
+    }
+        .mn-three-name {
+            position: absolute;
+            width: 262px;
+            height: 72px;
+            left: 64px;
+            top: 418px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .mn-three-photo {
+            position: absolute;
+            width: 251.86px;
+            height: 345px;
+            left: 74px;
+            top: 0px;
+        }
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 404px;
+    left: 0px;
+    top: 2243px;
+}
+    .ft-owners {
+        position: absolute;
+        width: 208px;
+        height: 27px;
+        left: 885px;
+        top: 25px;
+        font-family: 'Anonymous Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .ft-feedback {
+        position: absolute;
+        width: 112px;
+        height: 23px;
+        left: 885px;
+        top: 67px;
+        font-family: 'Anonymous Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .ft-help {
+        position: absolute;
+        width: 112px;
+        height: 21px;
+        left: 885px;
+        top: 105px;
+        font-family: 'Anonymous Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .ft-up-button {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 1250px;
+        top: 36px;
+    }
+    .ft-up-text {
+        position: absolute;
+        width: 80px;
+        height: 29px;
+        left: 1250px;
+        top: 117px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .ft-bfeedback {
+        position: absolute;
+        width: 804px;
+        height: 404px;
+        left: 0px;
+        top: 0px;
+    }
+        .ft-bfd {
+            position: absolute;
+            width: 217px;
+            height: 30px;
+            left: 58px;
+            top: 5px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+        .ft-logo-vk {
+            position: absolute;
+            width: 64px;
+            height: 64px;
+            left: 58px;
+            top: 73px;
+        }
+        .ft-logo-tg {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            left: 134px;
+            top: 73px;
+        }
+        .ft-logo-wa {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            left: 210px;
+            top: 73px;
+        }
+        .ft-phone {
+            position: absolute;
+            width: 313px;
+            height: 58px;
+            left: 58px;
+            top: 171px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+        .ft-bfd-link {
+            position: absolute;
+            width: 360px;
+            height: 52px;
+            left: 58px;
+            top: 252px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+        .ft-corp {
+            position: absolute;
+            width: 245px;
+            height: 29px;
+            left: 58px;
+            top: 323px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+        .ft-timework {
+            position: absolute;
+            width: 337px;
+            height: 68px;
+            left: 442px;
+            top: 270px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+        .ft-map {
+            position: absolute;
+            width: 370.4px;
+            height: 262px;
+            left: 418px;
+            top: 6px;
+        }
+
+.icon {
+    position: absolute;
+    width: 224px;
+    height: 89px;
+    left: 32px;
+    top: 70px;
+}
+
