@@ -179,6 +179,29 @@
             top: 0px;
         }
 
+.otzyvtit {
+    color: #FFFFFF;
+}
+.nikita {
+    position: absolute;
+    width: 193px;
+    height: 193px;
+    left: 43px;
+    top: 1369px;
+    background: url(5330065817930417175.jpg);
+    border-radius: 162px;
+}
+
+.golos {
+    position: absolute;
+    width: 484px;
+    height: 284px;
+    left: 236px;
+    top: 1324px;
+    background: url(pngtree-voice-message-icon-for-your-chat-design-png-image_4742397.png);
+}
+
+
 .footer {
     position: absolute;
     width: 1440px;
