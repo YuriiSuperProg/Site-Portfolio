@@ -15,15 +15,6 @@ header{
     margin-top: 5vh;
 }
 
-.header {
-    position: absolute;
-    width: 825px;
-    height: 549px;
-    left: 551px;
-    top: 199px;
-    background: url(images (1).jpg);
-}
-
 .ya{
     display: flex;
     justify-content: space-around;
