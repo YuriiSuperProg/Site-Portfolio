@@ -8,6 +8,7 @@ html{
     font-family: "Inter", sans-serif;
     background-color: black;
     color: white;
+    text-decoration: none;
 }
 
 .nav-div{
@@ -27,9 +28,14 @@ html{
     display: flex;
     list-style: none;
     margin-right: 5vw;
-    gap: 10vw;
+    gap: 7vw;
     
     
+}
+
+li:hover{
+    color: grey;
+    transition-duration: 0.5s;
 }
 
 .section1-div{
