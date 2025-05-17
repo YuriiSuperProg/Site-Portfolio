@@ -1,0 +1,174 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vw;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.li-nav{
+    display: flex;
+    list-style: none;
+    margin-right: 5vw;
+    gap: 7vw;
+    
+    
+}
+
+li:hover{
+    color: grey;
+    transition-duration: 0.5s;
+}
+
+.section1-div{
+    display: flex;
+    margin: 2vw;
+    gap: 48vw;
+    
+}
+
+.section1-img{
+    width: 435px;
+    height: 498px;
+}
+
+
+.section2{
+    margin-top: 50vh;
+}
+
+.section2-div{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 150px) ;
+    gap: 12px;
+    width: fit-content;
+    margin: 20vh auto;
+}
+
+.div-kartochka {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.div-kartochka img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.section3{
+    margin-top: 50vh;
+}
+
+.section3-div{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    margin: 20vh auto;
+}
+
+
+.hr1{
+    margin-top: 50vh;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50vh;
+}
+
+
+.btn{
+    width: 200px;
+    height: 70px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.btn:hover{
+    transform: scale(0.8);
+    transition-duration: 0.5s;
+    
+}
+
+.h2{
+    font-size: 30px;
+}
+
+li{
+    font-size: 20px;
+}
+
+p{
+    font-size: 18px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+
+
+@media (max-width: 500px){
+    .li-nav{
+        display: none;
+    }
+    .section1-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .section2-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section3-div{
+        display: block;
+         
+    }
+
+    .img-logo{
+        width: 100px;
+        height: 50px;
+    }
+    
+   
+    .img-btn{
+        height: 100px;
+        width: 100px;
+        position: fixed;
+        right: 0;
+    }
+}
