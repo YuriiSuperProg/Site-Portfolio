@@ -1,5 +1,6 @@
 *{
     color: #FFFFFF;
+    font-family: "Inter", sans-serif;
 }
 body{
     background-color: #272727;
@@ -7,8 +8,11 @@ body{
     padding: auto;
 }
 header{
-    border-collapse: separate;
-    border-spacing: 3em 0;
+    display: flex;
+    list-style: none;
+    margin-right: 5vw;
+    gap: 7vw;
+    margin-top: 5vh;
 }
 
 .ya{
